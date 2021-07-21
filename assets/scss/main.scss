@@ -16,4 +16,14 @@ main {
 }
 
 
+.action {
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(194, 194, 194);
+  }
+}
 
+.side-bar-scroll {
+  max-height: 20vh;
+  overflow-y: auto;
+}
